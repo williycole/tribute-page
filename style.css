@@ -1,3 +1,14 @@
+.sr-only {
+    position: absolute ;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+  }
+//sr-only at the top, something was overriding it and or it may have to be at the top, i think the fcc example was at the top of the styles also
+
+
 html {
   font-size: 10px;
 }
